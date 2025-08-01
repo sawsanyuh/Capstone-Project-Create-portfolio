@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- here i found a link to load icons from boxicons.com-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--scroll effect from a website i fount :scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo" style="font-family: 'Dancing Script', cursive;">Sawsan Mohammad</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active" >Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">contact</a>
+            
+        </nav>
+    </header>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,it's Me</h3>
+            <h1 >Sawsan Mohammad</h1>
+            <h3> I'm a <span>Full Stack Developer <span class="cursor">|</span></h3>
+            <p>And I am passionate about technology and coding, I am enthusiastic about leveraging my skills
+			 to create innovative solutions and impactful projects. </p>
+            <div class="social-media">
+                <a href="mailto:sawsanhani2002@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/sawsanhani/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/sawsanyuh"><i class='bx bxl-github' ></i></a>
+                
+            </div>
+            <a href="./files/Sawsan Hani Resume.pdf" class="btn" download="">Download CV</a>
+
+         </div>
+         <div class="home-img">
+            <img src="images/myphoto.jpg" alt="picture of sawsan mohammad"  > 
+         </div>
+
+    </section>
+     <!--about section-->
+     <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>a curious fresh graduate developer who enjoys turning ideas into interactive web experiences. I aspire to be a full-stack developer, blending clean code with creative design. Whether it's building apps, solving bugs, or
+               learning something new, I'm always up for the challenge.</p>
+            <a href="#experience" class="btn">show Experience</a>
+        </div>
+
+     </section>
+     <!--experience section-->
+     <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>software engineer fellow</h3>
+                <h5><span>Headstarter Remotly jul-sep</span></h5>
+                <p>Collaborated with a team of fellows to design , develop and compile AI  web applications  using MVC design
+                     strategies,
+                     received mentorship , reviews and networked with engineers from Amazon, Bloomberg ,microsoft, Capital-One to
+                    gain/ develop insights on professional development </p>
+
+            </div>
+            <div class="experience-box">
+                <h3>full stack developer trainee</h3>
+                <h5><span>SHAI Remotly jun-pres</span></h5>
+                <p>As a Trainee at SHAI, Im gaining hands-on experience building dynamic web applications using PHP and the Laravel and react framework .contributing to the design of responsive anf friendly  user interfaces. This experience strengthened my understanding of full-stack  development . </p>
+                
+            </div>
+            <div class="experience-box">
+                <h3>ERASMUS+ (abroad student)</h3>
+                <h5><span>Exchange program -Germany 6 months</span></h5>
+                <p>Participated in the Erasmus+ exchange program as an abroad international student at the University of Bonn--rhein--sieg. This amazing experience enhanced my communication skills, exposed me to diverse environments, and allowed me to explore and study advanced topics in computer science . </p>
+
+            </div>
+        </div>
+     </section>
+     <!--Project section -->
+     <section class="project" id="project">
+        <h2 class="heading">latest <span>projects</span></h2>
+        <p style="font-size: 1.4rem;">All other projects are in Github</p>
+        <div class="slider">
+  <div class="slide active">
+    <img src="./images/project1.png" alt="Project 1" style="filter: blur(3px)">
+    <div class="caption">
+      <h2>portfolio</h2>
+      <p>build a portfolio website to showcase my projects and skills</p>
+      <p class="tech">JavaScript CSS HTML</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="./images/project2.png " alt="Project 2" style="filter: blur(3px)">
+    <div class="caption">
+      <h2>Inventory Tracker</h2>
+      <p>simple inventory tracker website to track all items and delete/update</p>
+      <p class="tech">js nextjs bootstrap</p>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="./images/project3.png " alt="Project 3" style="filter: blur(3px)">
+    <div class="caption">
+      <h2>Ecommerce</h2>
+      <p> ecommerce website to showcase products and manage cart dashboard</p>
+      <p class="tech">React Nodejs mongodb express</p>
+    </div>
+  </div>
+
+  <!-- pointers for img slider-->
+  <div class="nav prev">&#10094;</div>
+  <div class="nav next">&#10095;</div>
+</div>
+
+     </section>
+     <!--contact section(final section)-->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://formsubmit.co/sawsanhani2002@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" aria-placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+     <!--footer-->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Build and designed by Sawsan Mohammad </p>
+            <p> All rights reserved ©</p>
+        </div>
+     </footer>
+       
+
+    <script src="js/main.js"></script>
+</body>
+</html>
